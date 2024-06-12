@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GabaritoReguler";
+  src: url("../../public/gabarito-font/fonts/ttf/Gabarito-Regular.ttf") format("truetype"); /* Adjust the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
