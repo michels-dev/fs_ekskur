@@ -10,7 +10,7 @@
   <link rel="icon" href="{{ asset('image/logo/darklogopenabur.png') }}" type="image/png">
   @stack('after-styles')
 </head>
-<body>
+<body class="bg-gray-100">
   @yield('content')
 
   @stack('before-scripts')
