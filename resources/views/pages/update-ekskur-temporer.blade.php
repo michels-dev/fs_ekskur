@@ -1,17 +1,16 @@
 @extends('layouts.template')
-  @section('title', 'Update Ekskur Rutin')
+  @section('title', 'Update Ekskur Temporer')
   @section('content')
   @include('components.navbar')
   @include('components.sidebar')
-  @include('components.footer')
     @push('after-styles')
 
     @endpush
 
-  <section class="bg-gray-100 dark:bg-gray-900 pt-20 md:pt-20 font-GabaritoRegular">
+  <section class="bg-gray-100 dark:bg-gray-900 pt-20 md:pt-20 font-GabaritoRegular mx-auto w-full">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
       <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
-          <h2 class="text-gray-900 dark:text-white text-2xl font-extrabold mb-8">Update Ekskur Rutin</h2>
+          <h2 class="text-gray-900 dark:text-white text-2xl font-extrabold mb-8">Update Ekskur Temporer</h2>
           <form action="{{ route('pages.update-ekskur-temporer', ['id' => $data->id]) }}" method="POST">
             @csrf
             <div class="grid grid-cols-1 md:grid-cols-12 gap-6">

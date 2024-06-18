@@ -8,3 +8,15 @@
   font-weight: normal;
   font-style: normal;
 }
+.dt-search{
+  width:fit-content!important;
+}
+
+#tableRutin_wrapper .grid .justify-self-end{
+  display: flex !important;
+  justify-content: end !important;
+}
+#tableTemporer_wrapper .grid .justify-self-end{
+  display: flex !important;
+  justify-content: end !important;
+}
